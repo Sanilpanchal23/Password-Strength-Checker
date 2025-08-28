@@ -1260,7 +1260,7 @@
       }
     });
 
-    // Check for URL parameters on load
+    // Check for URL parameters on load. If a password is provided, decode and analyze it.
     window.addEventListener('load', () => {
       const urlParams = new URLSearchParams(window.location.search);
       const encodedPassword = urlParams.get('p');
