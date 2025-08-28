@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Aether - Password Strength Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="App">
+      <header>
+        <h1>Project Aether</h1>
+        <p>A Modern Password Strength Analyzer</p>
+      </header>
+
+      <main>
+        <div class="input-container">
+          <input
+            type="text"
+            id="password-input"
+            class="password-input"
+            placeholder="Enter your password here..."
+            autofocus
+          />
+        </div>
+
+        <div class="strength-meter-container">
+          <div class="strength-meter-bar">
+            <div id="strength-meter-fill" class="strength-meter-fill"></div>
+          </div>
+          <p id="strength-text" class="strength-text">Enter a password</p>
+        </div>
+        
+        <div class="stats-container">
+          <div class="stat-item">
+            <h4>Estimated Crack Time</h4>
+            <p id="crack-time">N/A</p>
+          </div>
+          <div class="stat-item">
+            <h4>Information Entropy</h4>
+            <p id="entropy">N/A</p>
+          </div>
+        </div>
+        
+        <div id="feedback-container" class="feedback-container">
+          <h3>Actionable Feedback</h3>
+          <ul id="feedback-list" class="feedback-list">
+             </ul>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
