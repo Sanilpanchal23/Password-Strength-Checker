@@ -1,8 +1,4 @@
-Absolutely! Here’s your **Project Aether README** rewritten to the same **portfolio-ready, professional standard** as your other projects, with badges, clean layout, screenshots table, features, project structure, and all sections polished:
-
----
-
-# 🛡️ Project Aether – Advanced Password Strength Analyzer & Manager
+# 🛡️ Password Strength Checker – Advanced Password Strength Analyser & Manager
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)
@@ -10,7 +6,7 @@ Absolutely! Here’s your **Project Aether README** rewritten to the same **port
 ![MIT Licence](https://img.shields.io/badge/License-MIT-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
 
-**Project Aether** is a **privacy-focused, interactive web application** for analyzing, generating, and managing passwords. It provides real-time strength feedback, actionable security advice, breach detection, and tools to help users create and maintain secure passwords.
+**Password Strength Checker** is a **privacy-focused, interactive web application** for analyzing, generating, and managing passwords. It provides real-time strength feedback, actionable security advice, breach detection, and tools to help users create and maintain secure passwords.
 
 ---
 
@@ -32,7 +28,7 @@ Absolutely! Here’s your **Project Aether README** rewritten to the same **port
 
 ## 🌐 Live Demo
 
-🔗 **[Try Project Aether](https://yourusername.github.io/project-aether/)**
+🔗 **[Try Password Strength Checker](https://sanilpanchal23.github.io/Password-Strength-Checker/)**
 
 ---
 
@@ -41,19 +37,6 @@ Absolutely! Here’s your **Project Aether README** rewritten to the same **port
 | Dashboard Overview                                     | Password Strength Analysis                           | Password Generator                                     | Password History & Management                      |
 | ------------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- |
 | ![Dashboard Overview](assets/screenshot-dashboard.png) | ![Strength Analysis](assets/screenshot-analysis.png) | ![Password Generator](assets/screenshot-generator.png) | ![Password History](assets/screenshot-history.png) |
-
-**Suggested filenames for `assets` folder:**
-
-* `screenshot-dashboard.png`
-* `screenshot-analysis.png`
-* `screenshot-generator.png`
-* `screenshot-history.png`
-
-Project path example:
-
-```
-C:\Users\sanil\Projects\Project-Aether\assets
-```
 
 ---
 
@@ -115,8 +98,8 @@ C:\Users\sanil\Projects\Project-Aether\assets
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/project-aether.git
-cd project-aether
+git clone https://github.com/Sanilpanchal23/Password-Strength-Checke.git
+cd password-strength-checker
 ```
 
 ### 2. Open in browser
@@ -178,7 +161,5 @@ MIT Licence © 2025 **\[Sanil Panchal]**
 
 Author: [Sanil Panchal]
 
----
 
-✨ **Project Aether – Analyze, Generate, and Manage Passwords Safely and Privately.**
-
+✨ **Password Strength Checker – Analyze, Generate, and Manage Passwords Safely and Privately.**
